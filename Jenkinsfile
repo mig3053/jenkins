@@ -1,7 +1,7 @@
 pipeline {
    agent any
    environment {
-       registry = "mig3053/Jenkins"
+       registry = "mig3053/jenkins"
        GOCACHE = "/tmp"
    }
    stages {
